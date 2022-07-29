@@ -1,0 +1,178 @@
+*{
+
+margin: 0;
+padding: 0;
+text-decoration: none;
+
+}
+
+.navbar-container{
+
+display: flex;
+/* align-items: flex-end; */
+justify-content: space-between;
+margin-top: 30px;
+
+
+}
+.list{
+display: flex;
+justify-content: space-between;
+gap: 40px;
+list-style: none;
+
+}
+ul .list-item{
+
+text-decoration: none;
+font-size: 20px;
+text-decoration: none;
+margin: 15px 0px;
+}
+
+.button-group{
+display: flex;
+margin-right: 80px;
+
+}
+.search-icon {
+
+   padding: 0px 30px;
+
+}
+.nav-button{
+
+    border: 3px solid black;
+    border-radius: 12px;
+    padding: 8px 45px;
+    background-color: white;
+    color: black;
+}
+
+.hero-container{
+
+position: relative;
+
+}
+
+.square{
+position: absolute;
+left: 12%;
+top: 60%;
+
+}
+.star{
+
+    position: absolute;
+    left: 90%;
+    top: 2.5%;
+}
+
+.globe{
+
+    position: absolute;
+left: 49%;
+height: 20px;
+top: 1%;
+}
+
+
+.hero-container-right{
+
+display: flex;
+flex-direction: column;
+gap: 5rem;
+}
+.hero-heading{
+
+display: flex;
+align-self:center;
+top: 20%;
+left: 50%;
+}
+.hero-description{
+
+/* display: flex;
+justify-content: flex-end;
+align-self: flex-end;
+top: 50%; */
+font-size: 1.4rem;
+line-height: 1.6;
+padding: 0 6rem;
+justify-self: center;
+align-self: center;
+font-family: Poppins;
+color: #555;
+text-align:center;
+}   
+
+.hero-heading{
+position: relative;
+left: 20rem;
+bottom: 24rem;
+font-size: 5rem;
+
+}
+.hero-description{
+
+position: relative;
+left: 18rem;
+bottom: 26rem;
+}
+.button-email{
+
+    position: relative;
+    left: 58rem;
+bottom: 28rem;
+background-color: white;
+color: black;
+padding: 4px 30px;
+border: 2px solid black;
+border-radius: 18px;
+}
+.button-join{
+position: relative;
+left:60rem;
+bottom: 28rem;
+padding: 4px 15px;
+background-color: black;
+color: white;
+border-radius: 15px;
+
+}
+
+.contact-heading{
+position: relative;
+left: 65rem;
+bottom: 28rem;
+
+
+
+}
+.icons{
+position: relative;
+display: flex;
+bottom: 27rem;
+left: 61rem;
+
+}
+span{
+padding: 2px 6px;
+
+
+}
+
+.hero-img{
+
+position: relative;
+height: 30rem;
+top: 5rem;
+left: 4rem;
+z-index: 1;
+}
+.square2{
+
+position: relative;
+bottom: 25rem;
+right: 4rem;
+}
